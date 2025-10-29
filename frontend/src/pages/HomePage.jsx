@@ -8,7 +8,7 @@ import NotesNotFound from '../components/NotesNotFound';
 
 const HomePage = () => {
 
-  const [isRateLimited,setIsRatelimited] = useState(true);
+  const [isRateLimited,setIsRatelimited] = useState(false);
   const[notes,setNotes] = useState([]);
   const [loading, setLoading] = useState(true);
 
